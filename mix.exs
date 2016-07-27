@@ -30,8 +30,8 @@ defmodule Wechat.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:ex_doc, ">= 0.0.0", only: :dev},
-     {:poison, "~> 2.2.0"},
-     {:httpoison, "~> 0.9.0"}]
+     {:poison, "~> 2.1.0"},
+     {:httpoison, "~> 0.8.3"}]
   end
 
   defp description do
